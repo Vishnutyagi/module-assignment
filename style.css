@@ -1,0 +1,106 @@
+*{
+    font-family: Satoshi, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    margin:0 5% 0;
+}
+ul{
+    margin-bottom: 0 !important;
+    width: 85%;
+}
+nav>*,ul>*{
+    margin: 1% 2% 1%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav>ul>li:last-child{
+    margin-right: 0 !important;
+}
+.baki{
+    width: 55%;
+}
+.baki>button{
+    width: 15%;
+    color: #2F80ED;
+    border-width: 2px;
+    border-color: #2F80ED;
+    border-radius: 9px;
+    background-color: transparent;
+    padding: 10px 20px 10px;
+}
+.headerline{
+    background-color: #2F80ED;
+    color: white;
+    font-size: 13px;
+}
+.headerline>p{
+    margin: 10px;
+    /* margin-bottom: 0; */
+}
+.launch{
+
+    width: 50%;
+    margin: 5%;
+}
+.formcard{
+    width: 30%;
+    margin: 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.formcard>form>input,.formcard>button{
+    border: none;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
+}
+.formcard>button{
+    color: white;
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+
+}
+
+
+.courses{
+    background-color: #ECF8FF;
+}
+.cards{
+    display: flex;
+    margin: 5%;
+}
+.cardcontainer{
+    width: 50%;
+}
+.card{
+    width: 80%;
+}
+tr{
+    padding: 10px;
+}
+.bro,.mor{
+    width: 90%;
+}
+td{
+    text-align: center;
+    border-bottom:1px solid gray;
+}
+.bro{
+    /* width: 15%; */
+    color: #2F80ED;
+    border-width: 2px;
+    border-color: #2F80ED;
+    border-radius: 9px;
+    background-color: transparent;
+    padding: 10px 20px 10px;
+}
+td>img{
+    width: 100%;
+    height: 100%;
+}
